@@ -1,0 +1,61 @@
+html,body,div,ul,li,ol,input,span,a,p,img,h1,h2,h3,h4,h5,h6,form,dl,dt,textarea,i,s,b,u,nav,header,section{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-size:12px;
+}
+.clearfix::before,.clearfix::after{
+	content:"";
+	clear:both;
+	height: 0px;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+}
+input,textarea{
+	border:none;
+	outline-style: none;
+	outline:none;
+	resize:none;
+	-webkit-appearance: none;
+}
+ul,li{
+	list-style: none;
+}
+i,s,b,u{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;	
+}
+a{
+	color:#333;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+img{
+	display: block;
+}
+[class^=icon]{
+	background-image: url('../images/jd-sprites.png') ;
+	background-repeat:no-repeat;	
+	background-size:200px 200px;
+}
+.br{
+	border-right:1px solid #e0e0e0;
+}
+.bb{
+	border-bottom:1px solid #e0e0e0;
+}
+.w50{
+	width: 50%;
+}
+
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
