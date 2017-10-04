@@ -65,15 +65,65 @@ header form input{
 	color: #999;
 }
 header form span.icon_research{
+	vertical-align: middle;
 	position: absolute;
 	top: 0;
 	left: 0;
 	display: block;
 	width: 0.833333333rem;
 	height: 0.833333333rem;
-	/*background: orange;*/
 	background-image: url('../images/Tmall/icon_tmall.png');
 	background-size: cover;
 	background-position:-1.944444444rem 0.0555556rem;
 	background-repeat: no-repeat;
 }
+
+
+/*nav开始*/
+nav#Tmall_nav{
+	width: 100%;
+	margin: 0.277777777rem auto;
+	padding: 0 0.277777777rem;
+}
+nav#Tmall_nav ul{
+	width: 100%;
+}
+nav#Tmall_nav ul li{
+	float: left;
+	text-align: center;
+	width: 20%;
+	
+}
+nav#Tmall_nav ul li a{
+	width: 20%;
+	margin: 0 auto;
+}
+nav#Tmall_nav ul li img{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 0.166666666rem;
+	
+}
+/*nav结束*/
+
+/*banner开始*/
+section#banner{
+	width: 100%;
+	padding: 0 0.277777777rem;
+	position: relative;
+}
+section#banner ul.ImgUl{
+	width: 400%;
+	
+}
+section#banner ul.ImgUl li{
+	float: left;
+	
+}
+section#banner ul.ImgUl li a{
+	width: 100%;
+}
+section#banner ul.ImgUl li a img{
+	width: 100%;
+}
+/*banner结束*/
