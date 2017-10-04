@@ -123,6 +123,7 @@ div.banner ul.ImgUl li{
 	float: left;
 	overflow: hidden;
 	padding: 0 0.277777777rem;
+	box-shadow: 0 0 0.277777rem 0.055555rem #ccc;
 }
 div.banner ul.ImgUl li img{
 	width: 100%;
@@ -146,3 +147,78 @@ div.banner ul.points li.now{
 	background: rgba(255,255,255,1);
 }
 /*banner结束*/
+
+.shopmarket{
+	width: 100%;
+	padding: 0 0.277777777rem;
+	margin:0.277777rem auto;
+}
+.shopmarket h3{
+	display: block;
+	height: 0.76rem;
+	width:100%;
+	line-height: 0.76rem;
+	color: #373737;
+	/*float: left;*/
+	font-size: .3733333333rem;
+	font-family: PingFangSC-Medium;
+}
+.market{
+	width: 100%;
+	box-shadow: 0 0 0.277777rem 0.055555rem #CCCCCC;
+}
+.market .sectionleft{
+	width: 40%;
+	
+}
+.market .sectionleft img{
+	width: 100%;
+	margin-top: -4px;
+}
+.market .sectionright{
+	width: 60%;
+}
+.market .sectionright .right_one{
+	width: 50%;
+/*	box-shadow: 0 0 10px 1px #CCCCCC;*/
+	/*border: 1px solid #ccc;*/
+	padding: 0.416666rem;
+	box-sizing: border-box;
+}
+.market .sectionright .right_one p{
+/*	margin:0.138888rem auto;*/
+	font-size: 0.32rem;
+	color: #505050;
+	line-height: 0.638rem;
+	padding-top: .17333333333rem;
+
+}
+.market .sectionright .right_two{
+	width: 50%;
+	padding: 0.416666rem;
+
+}
+.market .sectionright .right_two img{
+	width: 100%;
+}
+.market .right_three{
+	width: 50%;
+	text-align: center;
+	padding: 0.416666rem;
+}
+.market .right_three img{
+	width: 50%;
+	margin:  0 auto;
+	
+}
+.market .right_four{
+	width: 50%;
+	text-align: center;
+	padding: 0.416666rem;
+	box-sizing: border-box;
+}
+.market .right_four img{
+	width: 50%;
+	margin:  0 auto;
+	
+}
