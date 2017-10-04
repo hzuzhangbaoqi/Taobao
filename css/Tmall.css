@@ -107,23 +107,42 @@ nav#Tmall_nav ul li img{
 /*nav结束*/
 
 /*banner开始*/
-section#banner{
+div.banner{
 	width: 100%;
-	padding: 0 0.277777777rem;
+	overflow: hidden;
 	position: relative;
+	margin: 0 auto;
+	/*box-shadow: 0 0 0.277777rem 0.055555rem #ccc;*/
 }
-section#banner ul.ImgUl{
-	width: 400%;
+div.banner ul.ImgUl{
+	width: 800%;
 	
 }
-section#banner ul.ImgUl li{
+div.banner ul.ImgUl li{
+	width: 12.5%;
 	float: left;
-	
+	overflow: hidden;
+	padding: 0 0.277777777rem;
 }
-section#banner ul.ImgUl li a{
+div.banner ul.ImgUl li img{
 	width: 100%;
+	height: 100%;	
 }
-section#banner ul.ImgUl li a img{
-	width: 100%;
+div.banner ul.points{
+	position: absolute;
+	bottom: .2133333333rem;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+div.banner ul.points li{
+	width: .3733333333rem;
+	height: .0533333333rem;
+	display: inline-block;
+	background: rgba(255,255,255,0.5);
+	margin-left: .0533333333rem;
+}
+div.banner ul.points li.now{
+	background: rgba(255,255,255,1);
 }
 /*banner结束*/
