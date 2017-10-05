@@ -349,3 +349,129 @@ div.banner ul.points li.now{
 	margin: auto;
 	padding-top: .1066666667rem;
 }
+
+
+/*list开始*/
+.container-multiColumn{
+	width: 100%;
+	
+}
+.container-multiColumn-class{
+	padding: 0rem 0.4rem 0rem 0.4rem;
+	margin: 0.4rem 0rem 0rem 0rem;
+	background: #FFFFFF;
+}
+.container-multiColumn-line{
+	width: 100%;
+}
+.recommend-item{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.recommend-item-class{
+	width: 4.3733333333rem;
+	height: 8.48rem;
+	text-align: left;
+	border: .0275066667rem solid #EDEDED;
+	background-size: 4.3733333333rem 8.8rem;
+	position: relative;
+	margin: auto auto 0.4rem;
+	margin:0.3333333333333333rem 0rem 0rem 0rem;
+}
+.recommend-item-class .logo_img{
+	width: 1.3333333333rem;
+	height: .6666666667rem;
+	float: left;
+	margin: .1333333333rem;
+	position: absolute;
+	z-index: 9999;
+	background: rgba(0,0,0,0.03);
+}
+.recommend-item-class .main_area{
+	height: 7.3066666667rem;
+	width: 100%;
+}
+.recommend-item-class .main_area img{
+	background: rgba(0,0,0,0.03);
+	padding: 0.4rem;
+	width: 3.6rem!important;
+	height: 3.6rem!important;
+}
+.recommend-item-class .labels_area{
+	position: absolute;
+	height: 18px;
+	top: 4.1333333333rem;
+	margin-left: .3466666667rem;
+	overflow: hidden;
+}
+.recommend-item-class .title{
+	padding: .2666666667rem .3333333333rem 0;
+	font-family: PingFangSC-Regular;
+	font-size: .3733333333rem;
+	color: #3e3e3e;
+	overflow: hidden;
+	height: 1.12rem;
+	line-height: .46rem;
+}
+.recommend-item-class .rights_area{
+	margin: .16rem .3466666667rem 0;
+	height: .4533333333rem;
+}
+.recommend-item-class .rights_area span.right{
+	background-color: #fad3d5;
+	padding: 0 0.08rem;
+	margin-right: 0.16rem;
+	font-family: PingFangSC-Regular;
+	font-size: .2666666667rem;
+	color: #ff3b44;
+	line-height: .2666666667rem;
+}
+.recommend-item-class .buy_line{
+	height: .5066666667rem;
+	padding: .2266666667rem .2666666667rem .1866666667rem .3466666667rem;
+}
+.recommend-item-class .buy_line .price{
+	font-family: PingFangSC-Semibold;
+	font-size: .4266666667rem;
+	color: #231f1f;
+	line-height:.4266666667rem;
+	float: left;
+}
+.recommend-item-class .buy_line .shop-car{
+	width: .5066666667rem;
+	height: .5066666667rem;
+	background: url('../images/Tmall/shopcar.png');
+	background-size:contain;
+	float: right;
+	margin:  auto;
+}
+.recommend-item-class .remark_border{
+	border-top: .0275066667rem dashed #DCDCDC;
+	padding: .16rem .2933333333rem;
+	background-size: cover;
+	height: .8533333333rem;
+}
+.recommend-item-class .remark_border .remark{
+	height: .8533333333rem;
+	overflow: hidden;
+	word-break: break-all;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	line-height: .4266666667rem;
+	
+	
+}
+.recommend-item-class .remark_border .remark span.remark_type{
+	color: #2683ff;
+	
+}
+.recommend-item-class .remark_border .remark span.remark_text{
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #444;
+	letter-spacing: 0;
+	word-break: break-all;
+}
+/*list结束*/
