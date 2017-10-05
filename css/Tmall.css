@@ -148,7 +148,7 @@ div.banner ul.points li.now{
 }
 /*banner结束*/
 
-.shopmarket{
+/*.shopmarket{
 	width: 100%;
 	padding: 0 0.277777777rem;
 	margin:0.277777rem auto;
@@ -159,7 +159,6 @@ div.banner ul.points li.now{
 	width:100%;
 	line-height: 0.76rem;
 	color: #373737;
-	/*float: left;*/
 	font-size: .3733333333rem;
 	font-family: PingFangSC-Medium;
 }
@@ -180,13 +179,10 @@ div.banner ul.points li.now{
 }
 .market .sectionright .right_one{
 	width: 50%;
-/*	box-shadow: 0 0 10px 1px #CCCCCC;*/
-	/*border: 1px solid #ccc;*/
 	padding: 0.416666rem;
 	box-sizing: border-box;
 }
 .market .sectionright .right_one p{
-/*	margin:0.138888rem auto;*/
 	font-size: 0.32rem;
 	color: #505050;
 	line-height: 0.638rem;
@@ -221,4 +217,135 @@ div.banner ul.points li.now{
 	width: 50%;
 	margin:  0 auto;
 	
+}
+
+*/
+.shopma{
+	height: 6.0933333333rem;
+	width: 100%;
+	padding: 0 0.277777777rem;
+}
+.shopma .titleh3{
+	height: 0.76rem;
+	width: 100%;
+	line-height: 0.76rem;
+}
+.shopma .titleh3 h3{
+	font-family: PingFangSC-Medium;
+	font-size: .3733333333rem;
+	color: #373737;
+	float: left;
+}
+.maketbody{
+	height: 5.33333333333rem;
+	width: 100%;
+	position: relative;	
+
+}
+.maketbody .left_body{
+	width: 3.8666666667rem;
+	height: 5.4133333333rem;
+	float: left;
+	margin-top: -.1324933333rem;
+	background:  0 0;
+}
+.maketbody .right_pic{
+	width: 5.3333333333rem;
+	height: 5.3333333333rem;
+	float: left;
+}
+.maketbody .right_pic .top_pic{
+	width: 100%;
+	height: 2.44rem;
+}
+.maketbody .right_pic .top_pic .hot_left{
+	float: left;
+	width: 2.66666666667rem;
+	height: 100%;
+}
+.maketbody .right_pic .top_pic .hot_left img{
+	display: block;
+	height: 0.4rem;
+	padding-top: .34666666667rem;
+	background: 0 0;
+	margin-left: .4rem;
+}
+.maketbody .right_pic .top_pic .hot_left .title{
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #505050;
+	line-height: .4rem;
+	padding-top: .17333333333rem;
+	margin-left: 0.4rem;
+}
+.maketbody .right_pic .top_pic .hot_left .benefit{
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #505050;
+	line-height: .4rem;
+	padding-top: .17333333333rem;
+	margin-left: 0.4rem;
+}
+.maketbody .right_pic .top_pic .hot_left_left{
+	width: 1.97333333333rem;
+	margin: .3466666667rem;
+	display: block;
+	border: 0;
+	float: left;
+}
+.maketbody .right_pic .bottom_pic{
+	height: 2.88rem;
+	width: 100%;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_l{
+	width: 2.6666666667rem;
+	float: left;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_l .title_img{
+	display: block;
+	height: 0.4rem;
+	padding-top: .3466666667rem;
+	background:  0 0;
+	margin-left: 0.4rem;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_l .benefit{
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #505050;
+	line-height: .4rem;
+	padding-top: .17333333333rem;
+	margin-left: 0.4rem;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_l .main_img{
+	height: 1.1333333333rem;
+	width: 1.3333333333rem;
+	display: block;
+	margin: auto;
+	padding-top: .1066666667rem;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_r{
+	width: 2.6666666667rem;
+	float: left;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_r .title_img{
+	display: block;
+	height: 0.4rem;
+	padding-top: .3466666667rem;
+	background:  0 0;
+	margin-left: 0.4rem;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_r .benefit{
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #505050;
+	line-height: .4rem;
+	padding-top: .17333333333rem;
+	margin-left: 0.4rem;
+}
+.maketbody .right_pic .bottom_pic .bottom_pic_r .main_img{
+	height: 1.1333333333rem;
+	width: 1.3333333333rem;
+	display: block;
+	margin: auto;
+	padding-top: .1066666667rem;
 }
