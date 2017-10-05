@@ -475,3 +475,14 @@ div.banner ul.points li.now{
 	word-break: break-all;
 }
 /*list结束*/
+
+
+
+/*footer开始*/
+.go_tmall{
+	width:100%;
+}
+.go_tmall img{
+	width: 100%;
+}
+/*footer结束*/
