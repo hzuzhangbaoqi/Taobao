@@ -138,10 +138,30 @@ body,html{
 	left: 0.05rem;
 	right: 0.05rem;
 	height: 0.05rem;
-	-wekkit-transform:scale(0);\
+	-wekkit-transform:scale(0);
 	transform: scale(0);
 	background: #fff;
 	-webkit-transition:-webkit-transform .4s ease;
 	transition:transform .4s ease;
+}
+.jh_drop{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0.8rem;
+	height: 0.8rem;	
+}
+.jh_drop_png{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+	background-image: url('../images/JuHuaSuan/xoa.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 2px;
+	/*transform: rotate(180deg);
+	-webkit-transform:rotate(180deg);*/
+	transition: transform .4s linear;
+	-webkit-transition:-webkit-transform .4s linear;
 }
 /*jh_navbar结束*/
