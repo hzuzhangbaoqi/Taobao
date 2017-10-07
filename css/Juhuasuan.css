@@ -232,3 +232,27 @@ nav#jh_nav a img{
 	height: 100%;
 }
 /*nav结束*/
+
+/*<!--热门推荐开始-->*/
+.hot-recomand{
+	height: 0.6rem;
+	width: 100%;
+	font-size: 0.388888888rem;
+	text-align: center;
+	margin: 0.1rem auto;
+	position: relative;
+	color: #666;
+}
+.hot-recomand:before{
+	left: 0;
+}
+.hot-recomand:before,.hot-recomand:after{
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 40%;
+	height: 0.027777777rem;
+	background: #ddd;
+	top: 50%;
+}
+/*<!--热门推荐结束-->*/
