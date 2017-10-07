@@ -399,3 +399,65 @@ ul.jh_list_items li.jh_item a.link .sale_info span.already_sale{
 	float: right;
 }
 /*listbox结束*/
+
+
+
+/*footer开始*/
+.footer{
+    height: 2rem;
+    line-height: 2rem;
+    width: 100%;
+    font-size: 0.42rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    color: #999;
+}
+.footer:before{
+    left: 0;
+}
+.footer:before,.footer:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 33.333%;
+    height: 0.055555555rem;
+    background: #ddd;
+    top: 50%;
+}
+/*footer结束*/
+
+/*user_login开始*/
+.user_login{
+    width: 1.333333333rem;
+    height: 1.333333333rem;
+    background: #e61414;
+    position: fixed;
+    bottom: 2%;
+    left: 3%;
+    border-radius: 50%;
+    background-image: url('../images/JuHuaSuan/user1.png');
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+.go_up{
+    width: 1.333333333rem;
+    height: 1.333333333rem;
+    background: #e61414;
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+    border-radius: 50%;
+    background-image: url('../images/JuHuaSuan/up.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+/*user_login结束*/
