@@ -741,7 +741,7 @@ section.like_list_items ul li a .list_info_wrap .list_info .al_sale{
 	font-size: 0.333333333rem;
 	line-height: 0.444444444rem;
 	vertical-align: bottom;
-	object-fit: #a5a5a5;
+	color: #a5a5a5;
 }
 /*猜你喜欢结束*/
 
@@ -753,4 +753,19 @@ footer#footer a{
 }
 footer#footer img{
 	width: 100%;
+}
+
+.go_up{
+	z-index: 99999;
+	position: fixed;
+	bottom: 15%;
+	right: 6%;
+	width: 1.333333333rem;
+	height: 1.333333333rem;
+	border-radius: 50%;
+	background-image: url('../images/fiybig/dingbu.png');
+	background-size: 100% 100%;
+	background-color: #FFFFFF;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
