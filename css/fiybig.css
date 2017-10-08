@@ -86,3 +86,50 @@ header.fb_trip_header_wrap .fb_trip_location img{
 	height: 120%;
 	vertical-align: middle;
 }
+
+
+/*banner开始*/
+.banner{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.banner ul.ImgUl{
+	width:700%;
+	
+}
+.banner ul.ImgUl li{
+	width: 14.28571429%;
+	float: left;
+}
+.banner ul.ImgUl li a{
+	width: 100%;
+	height: 100%;	
+}
+.banner ul.ImgUl li a img{
+	width: 100%;
+	height: 100%;	
+}
+.banner ul.points{
+	position: absolute;
+	right: 0.222222222rem;
+	bottom: 0.3rem;
+}
+.banner ul.points li{
+	background-color: hsla(0,0%,100%,.6);
+	/*background: yellow;*/
+	width:0.16rem;
+	height: 0.16rem;
+	border-radius: 50%;
+	margin: 0 0.055555555rem;
+	-webkit-border-radius:50%;
+	float: left;
+}
+.banner ul.points li.now{
+	background-color: rgba(255,195,0,0.5);
+	margin: 0 0.053333rem;
+	width: 0.24rem;
+	border-radius: 30%;
+	-webkit-transition:all .2s linear 0s;
+}
+/*banner结束*/
