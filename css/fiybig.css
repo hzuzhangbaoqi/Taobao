@@ -594,7 +594,7 @@ section.list_trip{
 	box-sizing: border-box;
 }
 section.list_trip ul{
-	width: 103%;
+	width: 100%;
 	box-sizing: border-box;
 }
 section.list_trip ul li{
