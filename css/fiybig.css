@@ -475,3 +475,160 @@ section.channel ul li:nth-of-type(3) div.title span{
 	border-radius: 0 0 0.333333333rem 0;
 }
 /*飞猪特卖结束*/
+
+
+
+/*周末好去处开始*/
+section.tap_banner{
+	height: 1.04rem;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+section.tap_banner header{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	position: relative;
+	height: 1.04rem;
+	color: #3D3D3D;
+	background: #FFFFFF;
+}
+section.tap_banner header div.tap_title img{
+	height: 1.04rem;
+	width: auto;
+	position: relative;
+}
+/*section.tap_banner header div.tap_title span{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	color: #3D3D3D;
+	padding: 0 .32rem;
+	font-size: 0.34667rem;
+	line-height: 0.49333rem;
+	position: relative;
+	float: right;
+	display: block;
+}
+section.tap_banner header em{
+	display: block;
+	line-height: 0.49333rem;
+	font-style: normal;
+	
+}
+section.tap_banner header em:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	display: block;
+	background: url('../images/fiybig/xiangyou.png');
+	background-size: 0.32rem 0.32rem;
+	height: 0.32rem;
+	width: 0.32rem;
+}*/
+
+section div.container{
+	background-color: #FFFFFF;
+	padding: 0 .32rem;
+	height: 3.413333rem;
+	padding-bottom: 0.16rem;
+}
+section div.container_left{
+	width: 3.173333rem;
+	float: left;
+	height: 3.413333rem;
+	background-color: #f2f3f4;
+}
+section div.container_left .tuijian{
+	height: 0.64rem;
+	background-color: #FFC900;
+	padding: 0 0.16rem;
+	display: inline-block;
+	line-height: 0.64rem;
+	color: #3D3D3D;
+	font-size: 0.32rem;
+}
+section div.container_left .title{
+	margin-top: 0.16rem;
+	font-size: 0.4rem;
+	height: 1.68rem;
+	color: #3D3D3D;
+}
+section div.container_left .title span{
+	line-height: 0.56rem;
+	word-break: break-all;
+	overflow: hidden;
+	-webkit-line-clamp:3;
+	-webkit-box-orient:vertical;
+}
+section div.container_left .line{
+	margin-top: 0.16rem;
+	width: 0.8rem;
+	height: 1px;
+	background-color: #FFC900;
+	border-radius: 0.16rem;
+}
+section div.container_left .exper{
+	margin-top: 0.16rem;
+	font-size: 0.333333333rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	color: #A5A5A5;
+}
+section div.container_right{
+	width: 6.18667rem;
+	float: left;
+	height: 3.413333rem;
+	
+}
+section div.container_right img{
+	width: 100%;
+	height: 100%;
+}
+
+section.list_trip{
+	width: 100%;
+	background: #FFFFFF;
+	padding: 0 .32rem;
+	overflow: hidden;
+	margin: 0.16rem 0;
+	box-sizing: border-box;
+}
+section.list_trip ul{
+	width: 103%;
+	box-sizing: border-box;
+}
+section.list_trip ul li{
+	float: left;
+	width: 33.333333%;
+	padding: 0 0.05rem;
+}
+section.list_trip ul li:nth-child(3){
+	padding-right: 0;
+}
+section.list_trip ul li img{
+	width: 100%;
+	height: auto;
+}
+section.list_trip ul li .trip_img{
+	position: relative;
+}
+section.list_trip ul li .trip_img span{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.75);
+	color: #FFFFFF;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	padding: 0 0.277777777rem;
+}
+section.list_trip ul li .title{
+	padding-right: 0.4rem;
+	font-size:0.333333333rem;
+	margin-top: 0.16rem;
+	line-height:0.555555555rem;
+	color: #333333;
+}
+/*周末好去处结束*/
