@@ -132,4 +132,38 @@ header.fb_trip_header_wrap .fb_trip_location img{
 	border-radius: 30%;
 	-webkit-transition:all .2s linear 0s;
 }
+.banner i.bg_banner{
+	display: block;
+	width: 100%;
+	background-image: url('../images/fiybig/hubian.png');
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 0.222222222rem;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 /*banner结束*/
+nav#fb_nav{
+	width: 100%;
+	overflow: hidden;
+	background: #FFFFFF;
+	padding-bottom: 0.277777777rem;
+}
+nav#fb_nav ul{
+	width: 100%;
+}
+nav#fb_nav ul li{
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+nav#fb_nav ul li a{
+	width: 100%;
+	height: 100%;
+}
+nav#fb_nav ul li a img{
+	width: 100%;
+	height: 100%;
+}
