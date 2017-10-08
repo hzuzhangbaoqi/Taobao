@@ -222,3 +222,34 @@ section.market header span em:after{
 	top: -0.027777777rem;
 }
 /*出境超市结束*/
+
+/*出境超市nav开始*/
+section.market_nav{
+	color: #666;
+	background: #FFFFFF;
+	padding-left: .32rem;
+	height: 2.08rem;
+	background-size: 100% 100%;
+	background-image: url('../images/fiybig/chaoshinav.webp');
+}
+section.market_nav ul{
+	height: 1.84rem;
+	margin-bottom: 0.24rem;
+}
+section.market_nav ul li{
+	float: left;
+	width: 2.16rem;
+	height: 0.8rem;
+	margin-right: 0.24rem;
+	line-height: 0.8rem;
+	margin-bottom: 0.24rem;
+	text-align: center;
+	border-radius: 1.33333rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #666;
+	font-weight: 400;
+	position: relative;
+	font-size: 0.32rem;
+}
+/*出境超市nav结束*/
