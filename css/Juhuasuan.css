@@ -377,6 +377,7 @@ ul.jh_list_items li.jh_item a.link .sale_info{
 	height: 0.9rem;
 	position: relative;
 	padding: 0 0.15rem;
+    line-height: 0.9rem;
 }
 ul.jh_list_items li.jh_item a.link .sale_info span.price{
 	color: #e61414;
