@@ -1,0 +1,43 @@
+body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-family: "苹方",Helvetica;
+}
+nav#nav{
+	width: 100%;
+}
+nav#nav ul{
+	width: 100%;
+	padding-bottom: 0.277777777rem;
+}
+nav#nav ul li{
+	width: 25%;
+	margin-top: 0.555555555rem;
+	float: left;
+	text-align: center;
+}
+nav#nav ul li a{
+	width: 100%;
+}
+nav#nav ul li a img{
+	width:50%;
+	display: block;
+	margin: 0 auto;
+}
+nav#nav ul li a p{
+	margin-top: 0.277777777rem;
+	text-align: center;
+}
+nav#nav ul li a p:nth-of-type(2){
+	margin-top: 0;
+}
+nav#nav span.line{
+	display: block;
+	width: 100%;
+	height:0.027777777rem;
+	background: #d5d5d5;
+	transform: scaleY(0.5);
+}
