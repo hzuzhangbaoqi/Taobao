@@ -658,14 +658,15 @@ section.like header div.tap_title img{
 section.like_list_items ul{
 	width: 100%;
 	float: left;
-	padding-bottom: 0.32rem;
 	padding: 0 .32rem;
+	background: #FFFFFF;
 }
 section.like_list_items ul li{
 	float: right;
 	width: 49%;
 	background: #FFFFFF;
 	position: relative;
+	padding-bottom: 0.32rem;
 }
 section.like_list_items ul li:nth-of-type(2n+1){
 	float: left;
@@ -732,7 +733,7 @@ section.like_list_items ul li a .list_info_wrap .list_info .price{
 	display: inline-block;
 }
 section.like_list_items ul li a .list_info_wrap .list_info .price strong{
-	margin-right: -0.1rem;
+	margin-right: -0.15rem;
 }
 section.like_list_items ul li a .list_info_wrap .list_info .al_sale{
 	display: inline-block;
@@ -743,3 +744,13 @@ section.like_list_items ul li a .list_info_wrap .list_info .al_sale{
 	object-fit: #a5a5a5;
 }
 /*猜你喜欢结束*/
+
+footer#footer{
+	width: 100%;
+}
+footer#footer a{
+	width: 100%;
+}
+footer#footer img{
+	width: 100%;
+}
