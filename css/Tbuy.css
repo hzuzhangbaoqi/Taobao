@@ -48,7 +48,7 @@ header#Tbuy_header a.header_Tbuy span:before{
 
 
 /*nav开始*/
-nav#Tbuy_nav{
+/*nav#Tbuy_nav{
 	width: 100%;
 	height: 1.2rem;
 	background: #fff;
@@ -88,5 +88,104 @@ nav#Tbuy_nav span.xiala{
 	background-size: 30%;
 	border-left: 1px solid #CCCCCC;
 	background-position: center center;
+}*/
+
+nav#Tbuy_nav{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+	position: relative;
+	border-bottom: 1px solid #CCCCCC;
+}
+nav#Tbuy_nav .nav_right{
+	height: 1.2rem;
+	width: 1.2rem;
+	float:right;
+	background-color: #FFFFFF;
+	background-image: url('../images/Tbuy/xiala.png');
+	background-repeat: no-repeat;
+	background-size: 30%;
+	border-left: 1px solid #CCCCCC;
+	background-position: center center;
+}
+nav#Tbuy_nav .nav_left{
+	height: 1.2rem;
+	overflow:hidden;
+	/*background: orange;*/
+}
+nav#Tbuy_nav .nav_left ul{
+	height:1.2rem;
+	background: #f8f8f8;
+}
+nav#Tbuy_nav .nav_left ul li{
+	width: 2rem;
+	height: 1.2rem;
+	line-height:1.2rem;
+	font-size: 0.388888888rem;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+}
+nav#Tbuy_nav ul li.now{
+	color: #ff3200;
+	border-bottom: 2px solid #ff3200;
 }
 /*nav结束*/
+
+/*排序开始*/
+section.rank{
+	width: 100%;
+	height: 1rem;
+	/*margin-top: 0.05rem;*/
+	/*background: orange;*/
+	box-sizing: border-box;
+	background: #f8f8f8;
+	border: 1px solid #CCCCCC;
+}
+section.rank a{
+	display: inline-block;
+	width: 33.3333333%;
+	text-align: center;
+	line-height:1rem;
+	float: left;
+	height: 1rem;
+	color: #4a4a4a;
+	font-size: 0.36rem;
+}
+section.rank a span{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+section.rank a span.hot::before{
+	content: "";
+	width: 20px;
+	display: inline-block;
+	height: 23px;
+	background-image: url('../images/Tbuy/rexiao_x.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 6px;
+}
+section.rank a span.tuijian::before{
+	content: "";
+	width: 20px;
+	display: inline-block;
+	height: 23px;
+	background-image: url('../images/Tbuy/dianzan_x.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 6px;
+}
+section.rank a span.news::before{
+	content: "";
+	width: 20px;
+	display: inline-block;
+	height: 23px;
+	background-image: url('../images/Tbuy/time_x.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 6px;
+}
+/*排序结束*/
