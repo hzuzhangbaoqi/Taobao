@@ -107,23 +107,26 @@ nav#Tmall_nav ul li img{
 /*nav结束*/
 
 /*banner开始*/
+div.banner_wrap{
+	width: 100%;
+	padding: 0 15px;
+}
 div.banner{
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	margin: 0 auto;
-	/*box-shadow: 0 0 0.277777rem 0.055555rem #ccc;*/
+	box-shadow: 0 0 0.277777rem 0.055555rem #ccc;
 }
 div.banner ul.ImgUl{
-	width: 800%;
-	
+	width: 1000%;
+	transform:translateX(-10%);
+	-webkit-transform: translateX(-10%);
+	padding: 0;
 }
 div.banner ul.ImgUl li{
-	width: 12.5%;
+	width: 10%;
 	float: left;
-	overflow: hidden;
-	padding: 0 0.4rem;
-	box-shadow: 0 0 0.277777rem 0.055555rem #ccc;
+	padding: 0;
 }
 div.banner ul.ImgUl li img{
 	width: 100%;
@@ -275,7 +278,7 @@ div.banner ul.points li.now{
 	font-size: 0.32rem;
 	color: #505050;
 	line-height: .4rem;
-	padding-top: .17333333333rem;
+	padding-top: .2rem;
 	margin-left: 0.4rem;
 }
 .maketbody .right_pic .top_pic .hot_left .benefit{
