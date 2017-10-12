@@ -390,7 +390,12 @@ div.banner ul.points li.now{
 	margin: .1333333333rem;
 	position: absolute;
 	z-index: 9;
-	background: rgba(0,0,0,0.03);
+	border: 0;
+	/*background: rgba(0,0,0,0.03);*/
+	
+}
+.recommend-item-class .logo_img img{
+	border: 0;
 }
 .recommend-item-class .main_area{
 	height: 7.3066666667rem;
@@ -424,7 +429,7 @@ div.banner ul.points li.now{
 }
 .recommend-item-class .rights_area span.right{
 	background-color: #fad3d5;
-	padding: 0 0.08rem;
+	/*padding: 0 0.08rem;*/
 	margin-right: 0.16rem;
 	font-family: PingFangSC-Regular;
 	font-size: .2666666667rem;
