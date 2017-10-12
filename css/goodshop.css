@@ -1,0 +1,52 @@
+body,html{
+	font-family: sans-serif;
+}
+body{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+header#box_wrapper{
+	width: 100%;
+	height: 1.55rem;
+	/*background: yellow;*/
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+}
+header#box_wrapper ul{
+	width: 100%;
+	display: flex;
+	background: #52bfe6;
+	height: 100%;
+
+}
+header#box_wrapper ul li{
+	-webkit-box-flex: 1;
+	flex: 1;
+	margin: 0;
+	text-align: center;
+	
+}
+header#box_wrapper ul li div{
+	background: #52bfe6;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 0.2rem;
+}
+header#box_wrapper ul li div.active{
+	background: rgb(25, 166, 219);
+}
+header#box_wrapper ul li div img{
+	width:35%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+header#box_wrapper ul li div p.li_title{
+	color: #FFFFFF;
+}
