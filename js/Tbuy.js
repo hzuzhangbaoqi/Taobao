@@ -1,7 +1,6 @@
 $(document).ready(function(){
 		$(window).on("resize",function(){
 			initProduct();
-			windowWidth();
 		}).trigger("resize");
 		
 		function initProduct(){
@@ -15,10 +14,10 @@ $(document).ready(function(){
 				$ul.width(sum);
 		}
 		
-		function windowWidth(){
+		/*function windowWidth(){
 			var windowWidth=$(window).width();
 			$('.waterfall_column').width(windowWidth);
-		}
+		}*/
 		
 		
 })
