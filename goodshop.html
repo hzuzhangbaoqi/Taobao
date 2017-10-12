@@ -48,81 +48,69 @@
 		
 		
 		
-		<div class="list_content">
-			<ul>
+		
+		<div class="content_wrap">
+			<ul class="clearfix">
 				<li>
-					<a href="javascript:;" class="content_link">
-						<div class="content_main">
-							<div class="content_img">
-								<img src="images/goodshop/list1.webp" />
-							</div>
-							<div class="content_info">
-								<p class="title">微软 3600无线蓝牙鼠标</p>
-								<span class="summany">
-									紧凑型设计，左右手都能舒适的使用，采用新蓝牙4.0技术，更加省电稳定，蓝影技术，几乎可在任何表面上流畅使用，4向纵横滚轮，鼠标可水平、垂直滚动，使用更加方便！
-								</span>
-								<p class="sayhello">
-									<span class="sm"></span>
-									<span class="say_content">
-										<em class="num">5</em>
-										人说好
-									</span>
-								</p>
-							</div>
-						</div>
-						<div class="cut_section"></div>
-					</a>
+					<div class="list_content">
+						<ul></ul>
+					</div>
 				</li>
-				
-				
 				<li>
-					<a href="javascript:;" class="content_link">
-						<div class="content_main">
-							<div class="content_img">
-								<img src="images/goodshop/list1.webp" />
-							</div>
-							<div class="content_info">
-								<p class="title">微软 3600无线蓝牙鼠标</p>
-								<span class="summany">
-									紧凑型设计，左右手都能舒适的使用，采用新蓝牙4.0技术，更加省电稳定，蓝影技术，几乎可在任何表面上流畅使用，4向纵横滚轮，鼠标可水平、垂直滚动，使用更加方便！
-								</span>
-								<p class="sayhello">
-									<span class="sm"></span>
-									<span class="say_content">
-										<em class="num">5</em>
-										人说好
-									</span>
-								</p>
-							</div>
-						</div>
-						<div class="cut_section"></div>
-					</a>
+					<div class="list_content">
+						<ul></ul>
+					</div>
 				</li>
-				
 				<li>
-					<a href="javascript:;" class="content_link">
-						<div class="content_main">
-							<div class="content_img">
-								<img src="images/goodshop/list1.webp" />
-							</div>
-							<div class="content_info">
-								<p class="title">微软 3600无线蓝牙鼠标</p>
-								<span class="summany">
-									紧凑型设计，左右手都能舒适的使用，采用新蓝牙4.0技术，更加省电稳定，蓝影技术，几乎可在任何表面上流畅使用，4向纵横滚轮，鼠标可水平、垂直滚动，使用更加方便！
-								</span>
-								<p class="sayhello">
-									<span class="sm"></span>
-									<span class="say_content">
-										<em class="num">5</em>
-										人说好
-									</span>
-								</p>
-							</div>
-						</div>
-						<div class="cut_section"></div>
-					</a>
+					<div class="list_content">
+						<ul></ul>
+					</div>
+				</li>
+				<li>
+					<div class="list_content">
+						<ul></ul>
+					</div>
+				</li>
+				<li>
+					<div class="list_content">
+						<ul></ul>
+					</div>
 				</li>
 			</ul>
 		</div>
+		
+		
+		<script type="text/template" id="jingxuan">
+				<%for(var i=0;i<JC.length;i++){%>
+					<li>
+						<a href="javascript:;" class="content_link">
+							<div class="content_main">
+								<div class="content_img">
+									<img src="<%=JC[i].img_path%>" />
+								</div>
+								<div class="content_info">
+									<p class="title"><%=JC[i].title%></p>
+									<span class="summany">
+										<%=JC[i].summany%>
+									</span>
+									<p class="sayhello">
+										<span class="sm"></span>
+										<span class="say_content">
+											<em class="num"><%=JC[i].num%></em>
+											人说好
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="cut_section"></div>
+						</a>
+				</li>
+				<%}%>
+		</script>
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/template-web.js" ></script>
+		<script type="text/javascript" src="js/goodshop.js" ></script>
+		
 	</body>
 </html>

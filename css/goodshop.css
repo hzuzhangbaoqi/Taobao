@@ -52,11 +52,57 @@ header#box_wrapper ul li div p.li_title{
 
 
 /*商品展示部分开始*/
+.content_wrap{
+	width: 100%;
+	/*padding: 0 0.36rem;*/
+	position: relative;
+	overflow: auto;
+}
+.content_wrap ul{
+	width: 500%;
+	height: 100%;
+	
+}
+.content_wrap ul li{
+	float: left;
+	width: 20%;
+	height: 100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .list_content{
 	width: 100%;
 	margin-top: 1.6rem;
 	overflow: hidden;
-	padding: 0 0.36rem;
+	
 }
 .list_content li{
 	width: 100%;
