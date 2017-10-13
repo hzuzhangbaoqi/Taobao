@@ -1,3 +1,6 @@
+
+swipe(".box_wrapper");
+
 var box=document.querySelector('.banner');
 var imgUl=box.children[0];
 var douUl=box.children[1];
@@ -77,3 +80,4 @@ imgUl.addEventListener('touchend',function(e){
 })
 
 
+	
