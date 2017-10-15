@@ -7,10 +7,27 @@ $(".nav_left ul li").on("click", function(){
 $(".rank .hot").on("click", function(){
 	$(this).addClass('now').siblings().removeClass('now');
 });
+/*alert(41);
+*/
+var Tbuy=[
+{"img_path":"images/Tbuy/list1.webp","title":"居爱衣服收纳箱两件套棉麻储物有盖塑料布艺整理箱大号被子收纳袋","now_price":"￥14.90","sell_num":"￥47.80","ispost":"包邮","after_price":"9.9","action_btn":"抢35元券","tj":"62","time":"22"},
+{"img_path":"images/Tbuy/list2.webp","title":"新疆棉花被子冬被全棉被芯棉絮床垫棉胎垫被学生宿舍单人双人被褥","now_price":"￥118.00","sell_num":"￥47.80","ispost":"不包邮","after_price":"68.88","action_btn":"抢50元券","tj":"55","time":"11"},
+{"img_path":"images/Tbuy/list3.webp","title":"北极绒儿童保暖内衣套装童装黄金甲加绒加厚秋衣裤睡衣冬男童女童","now_price":"￥47.80","sell_num":"￥47.80","ispost":"包邮","after_price":"9.8","action_btn":"抢10元券","tj":"66","time":"55"},
+{"img_path":"images/Tbuy/list4.webp","title":"送机或菌 佰生优10菌种家用酸奶菌粉 双歧杆菌益生菌乳酸菌发酵剂","now_price":"￥188.00","sell_num":"月销1.19万件","ispost":"包邮","after_price":"19.9","action_btn":"抢2元券","tj":"55","time":"12"},
+{"img_path":"images/Tbuy/list5.webp","title":"泊泉雅小黑裙身体乳保湿滋润补水香体浴后持久淡香全身润肤正品女","now_price":"￥47.80","sell_num":"月销1.19万件","ispost":"不包邮","after_price":"10","action_btn":"抢6元券","tj":"108","time":"259"},
+{"img_path":"images/Tbuy/list6.webp","title":"男士卫衣秋季2017新款韩版潮流加绒加厚学生套头圆领男生长袖外套","now_price":"￥141.90","sell_num":"月销707件","ispost":"包邮","after_price":"9.8","action_btn":"抢50元券","tj":"88","time":"66"},
+{"img_path":"images/Tbuy/list7.webp","title":"居爱衣服收纳箱两件套棉麻储物有盖塑料布艺整理箱大号被子收纳袋","now_price":"￥118.00","sell_num":"￥47.80","ispost":"包邮","after_price":"29.8","action_btn":"抢50元券","tj":"66","time":"11"},
+{"img_path":"images/Tbuy/list8.webp","title":"新疆棉花被子冬被全棉被芯棉絮床垫棉胎垫被学生宿舍单人双人被褥","now_price":"￥47.80","sell_num":"￥63.80","ispost":"包邮","after_price":"9.8","action_btn":"抢10元券","tj":"55","time":"55"},
+{"img_path":"images/Tbuy/list9.webp","title":"北极绒儿童保暖内衣套装童装黄金甲加绒加厚秋衣裤睡衣冬男童女童","now_price":"￥188.00","sell_num":"￥47.80","ispost":"包邮","after_price":"39.8","action_btn":"抢2元券","tj":"66","time":"12"},
+{"img_path":"images/Tbuy/list10.webp","title":"送机或菌 佰生优10菌种家用酸奶菌粉 双歧杆菌益生菌乳酸菌发酵剂","now_price":"￥47.80","sell_num":"￥647.80","ispost":"包邮","after_price":"59.6","action_btn":"抢6元券","tj":"55","time":"969"},
 
+]
 
+var dataTmall ={Tbuy:Tbuy};
 
-
+var html=template("Tbuy_shop",dataTmall);
+console.log(1);
+$('.waterfall_column').html(html);
 
 
 

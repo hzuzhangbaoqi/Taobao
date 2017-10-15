@@ -67,147 +67,48 @@
 			<div class="list_con">
 				<div class="waterfall_list">
 					<div class="waterfall_column">
-						<div class="list_item_one">
-							<a href="javascript:;" target="_blank">
-								<div class="list_item_con">
-									<img src="images/Tbuy/list2.webp" class="item_img" />
-									<div class="item_info">
-										<p class="title">
-											<span class="tm_icon"></span>
-											杞里香宁夏枸杞子新货免洗特级500克中宁苟杞子
-										</p>
-										<p class="more_info">
-											<span class="more_info_price">现价&nbsp;￥36.90</span>
-											<span class="more_info_sell">月销7.50万件</span>
-											<span class="more_info_post">包邮</span>
-										</p>
-										<p class="after_price_name">折后价</p>
-										<p class="after_price">
-											<span class="after-price-icon">￥</span>
-											<span class="after-price-num">16.90</span>
-										</p>
-									</div>
-								</div>
-							</a>
-							<button class="action_btn">抢20元券</button>
-							<div class="hr"></div>
-						</div>
 						
-						
-						
-						<div class="list_item_one">
-							<a href="javascript:;" target="_blank">
-								<div class="list_item_con">
-									<img src="images/Tbuy/list1.webp" class="item_img" />
-									<div class="item_info">
-										<p class="title">
-											<span class="tm_icon"></span>
-											杞里香宁夏枸杞子新货免洗特级500克中宁苟杞子
-										</p>
-										<p class="more_info">
-											<span class="more_info_price">现价&nbsp;￥36.90</span>
-											<span class="more_info_sell">月销7.50万件</span>
-											<span class="more_info_post">包邮</span>
-										</p>
-										<p class="after_price_name">折后价</p>
-										<p class="after_price">
-											<span class="after-price-icon">￥</span>
-											<span class="after-price-num">16.90</span>
-										</p>
-									</div>
-								</div>
-							</a>
-							<button class="action_btn">抢20元券</button>
-							<div class="hr"></div>
-						</div>
-						
-						<div class="list_item_one">
-							<a href="javascript:;" target="_blank">
-								<div class="list_item_con">
-									<img src="images/Tbuy/list3.webp" class="item_img" />
-									<div class="item_info">
-										<p class="title">
-											<span class="tm_icon"></span>
-											杞里香宁夏枸杞子新货免洗特级500克中宁苟杞子
-										</p>
-										<p class="more_info">
-											<span class="more_info_price">现价&nbsp;￥36.90</span>
-											<span class="more_info_sell">月销7.50万件</span>
-											<span class="more_info_post">包邮</span>
-										</p>
-										<p class="after_price_name">折后价</p>
-										<p class="after_price">
-											<span class="after-price-icon">￥</span>
-											<span class="after-price-num">16.90</span>
-										</p>
-									</div>
-								</div>
-							</a>
-							<button class="action_btn">抢20元券</button>
-							<div class="hr"></div>
-						</div>
-						
-						<div class="list_item_one">
-							<a href="javascript:;" target="_blank">
-								<div class="list_item_con">
-									<img src="images/Tbuy/list3.webp" class="item_img" />
-									<div class="item_info">
-										<p class="title">
-											<span class="tm_icon"></span>
-											杞里香宁夏枸杞子新货免洗特级500克中宁苟杞子
-										</p>
-										<p class="more_info">
-											<span class="more_info_price">现价&nbsp;￥36.90</span>
-											<span class="more_info_sell">月销7.50万件</span>
-											<span class="more_info_post">包邮</span>
-										</p>
-										<p class="after_price_name">折后价</p>
-										<p class="after_price">
-											<span class="after-price-icon">￥</span>
-											<span class="after-price-num">16.90</span>
-										</p>
-									</div>
-								</div>
-							</a>
-							<button class="action_btn">抢20元券</button>
-							<div class="hr"></div>
-						</div>
-						
-						
-						<div class="list_item_one">
-							<a href="javascript:;" target="_blank">
-								<div class="list_item_con">
-									<img src="images/Tbuy/list2.webp" class="item_img" />
-									<div class="item_info">
-										<p class="title">
-											<span class="tm_icon"></span>
-											杞里香宁夏枸杞子新货免洗特级500克中宁苟杞子
-										</p>
-										<p class="more_info">
-											<span class="more_info_price">现价&nbsp;￥36.90</span>
-											<span class="more_info_sell">月销7.50万件</span>
-											<span class="more_info_post">包邮</span>
-										</p>
-										<p class="after_price_name">折后价</p>
-										<p class="after_price">
-											<span class="after-price-icon">￥</span>
-											<span class="after-price-num">16.90</span>
-										</p>
-									</div>
-								</div>
-							</a>
-							<button class="action_btn">抢20元券</button>
-							<div class="hr"></div>
-						</div>
 					</div>
 				</div>
 			</div>
 		<!--商品展示部分结束-->
+		<script type="text/template" id="Tbuy_shop">
+			<%for(var i=0;i<Tbuy.length;i++){%>
+				<div class="list_item_one">
+				<a href="javascript:;" target="_blank">
+					<div class="list_item_con">
+						<img src="<%=Tbuy[i].img_path%>" class="item_img" />
+						<div class="item_info">
+							<p class="title">
+								<span class="tm_icon"></span>
+								<%=Tbuy[i].title%>
+							</p>
+							<p class="more_info">
+								<span class="more_info_price">现价&nbsp;<%=Tbuy[i].now_price%></span>
+								<span class="more_info_sell"><%=Tbuy[i].sell_num%></span>
+								<span class="more_info_post"><%=Tbuy[i].ispost%></span>
+							</p>
+							<p class="after_price_name">折后价</p>
+							<p class="after_price">
+								<span class="after-price-icon">￥</span>
+								<span class="after-price-num"><%=Tbuy[i].after_price%></span>
+							</p>
+						</div>
+					</div>
+				</a>
+				<button class="action_btn"><%=Tbuy[i].action_btn%></button>
+				<div class="hr"></div>
+				</div>
+			<%}%>
+		</script>
 		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
-		<script type="text/javascript" src="js/Tbuy.js" ></script>
+		<script type="text/javascript" src="js/template-web.js" ></script>
+		<script type="text/javascript" src="js/Tbuy.js"></script>
 		<!--<script type="text/javascript" src="js/swipeX.js" ></script>-->
 		<script>
 			swipe_Tbuy('.nav_left');
 		</script>
+		
+		
 	</body>
 </html>

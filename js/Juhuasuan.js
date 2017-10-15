@@ -11,6 +11,12 @@ $(function(){
 	
 })
 
+/*document.addEventListener(
+	"touchmove",
+	function(e) {
+		e.preventDefault();
+	}
+);*/
 
 /*var as=document.querySelectorAll('.jh_navcut a');
 var spans=document.querySelectorAll('.jh_navcut span');*/
