@@ -81,10 +81,11 @@
 		<!--banner开始-->
 			<div class="jh_banner">
 				<ul class="ImgUl">
-					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner2.jpg"/></a></li>
-					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner1.jpg"/></a></li>
 					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner3.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner1.jpg"/></a></li>
 					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner2.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner3.jpg"/></a></li>
+					<li><a href="javascript:;"><img src="images/JuHuaSuan/banner1.jpg"/></a></li>
 				</ul>
 				<ul class="points">
 					<li class="now"></li>
@@ -109,66 +110,11 @@
 
 			<!--listbox开始-->
 			<ul class="jh_list_items">
-				<li class="jh_item">
-					<a href="javascript:;" class="link">
-						<div class="jh_main">
-							<img src="images/JuHuaSuan/list1.webp.jpg" />
-							<div class="merits">
-								<div class="merit">
-									前1000件5折
-								</div>
-							</div>
-						</div>
-						<div class="namewarp">
-							<div class="name_short">Blackmores无腥味鱼油400粒*2瓶</div>
-							<div class="title_icon">
-								<img src="images/JuHuaSuan/titlenav.webp" />
-							</div>
-						</div>
-						<del class="tag_price">￥578.00</del>
-						<div class="sale_info">
-							<span class="price">
-								<i class="jh_yen">￥</i>
-								<em class="base_price">268</em>
-							</span>
-							<span class="already_sale"><i class="sale_num">1245</i>件已售</span>
-						</div>
-					</a>
-				</li>
-
-
-				<li class="jh_item">
-					<a href="javascript:;" class="link">
-						<div class="jh_main">
-							<img src="images/JuHuaSuan/list1.webp.jpg" />
-							<div class="merits">
-								<div class="merit">
-									前1000件5折
-								</div>
-							</div>
-						</div>
-						<div class="namewarp">
-							<div class="name_short">Blackmores无腥味鱼油400粒*2瓶</div>
-							<div class="title_icon">
-								<img src="images/JuHuaSuan/titlenav.webp" />
-							</div>
-						</div>
-						<del class="tag_price">￥578.00</del>
-						<div class="sale_info">
-							<span class="price">
-								<i class="jh_yen">￥</i>
-								<em class="base_price">268</em>
-							</span>
-							<span class="already_sale"><i class="sale_num">1245</i>件已售</span>
-						</div>
-					</a>
-				</li>
 			</ul>
 			<!--listbox结束-->
 			<div class="footer">我是有底线的</div>
 
-			<div class="user_login"></div>
-			<div class="go_up"></div>
+			
 
 
 
@@ -177,10 +123,45 @@
 		
 			</div>
 		</div>
-		
+		<div class="user_login"></div>
+		<div class="go_up"></div>
+		<script type="text/template" id="jhs">
+			
+				<%for(var i=0;i<jhs.length;i++){%>
+					<li class="jh_item">
+					<a href="javascript:;" class="link">
+						<div class="jh_main">
+							<img src="<%=jhs[i].img_path%>" />
+							<div class="merits">
+								<div class="merit">
+									<%=jhs[i].merit%>
+								</div>
+							</div>
+						</div>
+						<div class="namewarp">
+							<div class="name_short"><%=jhs[i].title%></div>
+							<div class="title_icon">
+								<img src="<%=jhs[i].new_img%>" />
+							</div>
+						</div>
+						<del class="tag_price"><%=jhs[i].tag_price%></del>
+						<div class="sale_info">
+							<span class="price">
+								<i class="jh_yen">￥</i>
+								<em class="base_price"><%=jhs[i].base_price%></em>
+							</span>
+							<span class="already_sale"><i class="sale_num"><%=jhs[i].sale%></i>件已售</span>
+						</div>
+					</a>
+				</li>
+				<%}%>
+		</script>
 		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/template-web.js" ></script>
 		<script type="text/javascript" src="js/Juhuasuan.js"></script>
 		<script type="text/javascript" src="js/swipeX.js" ></script>
+		
 		<script src="js/swipe.js"></script>
 		<script>
 			swipeX(".jh_navwp");

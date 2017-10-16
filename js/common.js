@@ -18,6 +18,7 @@ taobao_banner.setTransform =function(obj,distance,direction){
 		imgUl.style.webkitTransform ="translateX("+distance+"px)";
 	}
 }
+
 taobao_banner.addTransitionEnd = function(obj,callback){
 	obj.addEventListener('transitionEnd',callback);
 	obj.addEventListener('webkitTransitionEnd',callback);

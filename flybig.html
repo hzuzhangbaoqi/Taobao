@@ -192,20 +192,18 @@
         				<div class="headline_img"></div>
         			</header>
         			<div class="headline_newslist_wrap">
-        				<div class="headline_newslist">
-        					<ul>
-        						<li>
-        							<p>
-        								<b></b>
-        								<span>【南极专题】为何朋友圈晒南极美景的女孩纸越来越多？真相竟然是这个！</span>
-        							</p>
-        							<p>
-        								<b></b>
-        								<span>中国最受欢迎的十大自驾路线;评选结果火热出炉！</span>
-        							</p>
-        						</li>
-        					</ul>
-        				</div>
+        				<div class="qiang ellipsis">
+							<div class="wenzi"><b></b>这些高性价比餐厅将震撼你的灵魂</div>
+							<div class="wenzi"><b></b>正确解读百变巴厘岛，旅行师教你玩出新花样</div>
+						</div>
+						<div class="re ellipsis">
+							<div class="wenzi"><b></b>小米又一低价爆款,能不能抢到看人品？</div>
+							<div class="wenzi"><b></b>9.9元100张照片任意选</div>
+						</div>
+						<div class="bao ellipsis">
+							<div class="wenzi"><b></b>全球最贵5辆摩托车,姑娘都想上</div>
+							<div class="wenzi"><b></b>9.9元100张照片任意选</div>
+						</div>
         			</div>
         		</div>
         	</section>
@@ -353,68 +351,7 @@
             	</section>
             	<section class="like_list_items">
             		<ul class="clearfix">
-            			<li>
-            				<a href="javascript:;">
-            					<div class="list_img">
-            						<img src="images/fiybig/list1.webp"/>
-            						<span class="ellipsis">莉莉岛 | 自由行</span>
-            					</div>
-            					<div class="list_info_wrap">
-            						<h3>飞猪专线 马尔代夫旅游莉莉岛奢华六星一价全包代理蜜月自由行</h3>
-            						<div class="list_info">
-            								<span class="price"><strong>￥</strong>19999</span>
-            								<span class="al_sale">2771人购买</span>
-            							</div>
-            						</div>
-            				</a>
-            			</li>
             			
-            			<li>
-            				<a href="javascript:;">
-            					<div class="list_img">
-            						<img src="images/fiybig/list1.webp"/>
-            						<span class="ellipsis">莉莉岛 | 自由行</span>
-            					</div>
-            					<div class="list_info_wrap">
-            						<h3>飞猪专线 马尔代夫旅游莉莉岛奢华六星一价全包代理蜜月自由行</h3>
-            						<div class="list_info">
-            								<span class="price"><strong>￥</strong>19999</span>
-            								<span class="al_sale">2771人购买</span>
-            							</div>
-            						</div>
-            				</a>
-            			</li>
-            			<li>
-            				<a href="javascript:;">
-            					<div class="list_img">
-            						<img src="images/fiybig/list1.webp"/>
-            						<span class="ellipsis">莉莉岛 | 自由行</span>
-            					</div>
-            					<div class="list_info_wrap">
-            						<h3>飞猪专线 马尔代夫旅游莉莉岛奢华六星一价全包代理蜜月自由行</h3>
-            						<div class="list_info">
-            								<span class="price"><strong>￥</strong>19999</span>
-            								<span class="al_sale">2771人购买</span>
-            							</div>
-            						</div>
-            				</a>
-            			</li>
-            			
-            			<li>
-            				<a href="javascript:;">
-            					<div class="list_img">
-            						<img src="images/fiybig/list1.webp"/>
-            						<span class="ellipsis">莉莉岛 | 自由行</span>
-            					</div>
-            					<div class="list_info_wrap">
-            						<h3>飞猪专线 马尔代夫旅游莉莉岛奢华六星一价全包代理蜜月自由行</h3>
-            						<div class="list_info">
-            								<span class="price"><strong>￥</strong>19999</span>
-            								<span class="al_sale">2771人购买</span>
-            							</div>
-            						</div>
-            				</a>
-            			</li>
             		</ul>
             	</section>
             <!--猜你喜欢结束-->
@@ -428,6 +365,29 @@
 
             <div class="go_up"></div>
         </article>
+        <script type="text/template" id="travel">
+			<%for(var i=0;i<flybig.length;i++){%>
+				<li>
+    			<a href="javascript:;">
+    				<div class="list_img">
+    						<img src="<%=flybig[i].img_path%>"/>
+    						<span class="ellipsis"><%=flybig[i].small_title%></span>
+    				</div>
+					<div class="list_info_wrap">
+						<h3><%=flybig[i].title%></h3>
+						<div class="list_info">
+								<span class="price"><strong>￥</strong><%=flybig[i].price%></span>
+								<span class="al_sale"><%=flybig[i].sell%></span>
+							</div>
+					</div>
+    			</a>
+    		</li>
+			<%}%>
+        </script>
+        <script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+        <script type="text/javascript" src="js/common.js" ></script>
+        <script type="text/javascript" src="js/template-web.js" ></script>
+        <script type="text/javascript" src="js/flybig.js" ></script>
     </div>
 </body>
 </html>

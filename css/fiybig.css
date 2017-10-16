@@ -262,12 +262,14 @@ section.trip_news{
 section.trip_news .trip_news_headline{
 	display: -webkit-box;
 	-webkit-box-align: center;
-	padding: 0.13333rem 0.26667rem .13333rem 0;	
+	/*padding: 0.13333rem 0.26667rem .13333rem 0;	*/
+	display: flex;
 }
 section.trip_news .trip_news_headline header.headline_img_wrap{
 	width: 2.13333rem;
 	height: 1.333333rem;
 	box-sizing: border-box;
+	flex: 2;
 }
 section.trip_news .trip_news_headline header.headline_img_wrap .headline_img{
 	background-image: url('../images/fiybig/toutiao.webp');
@@ -279,11 +281,52 @@ section.trip_news .trip_news_headline header.headline_img_wrap .headline_img{
 }
 section.trip_news .trip_news_headline .headline_newslist_wrap{
 	height: 1.333333rem;
-	padding-left: 0.32rem;
+	/*padding-left: 0.32rem;*/
 	overflow: hidden;
 	-webkit-box-flex: 1;
+	box-sizing: border-box;
+	position: relative;
+	/*width: 100%;*/
+	flex: 6;
+	
 }
-section.trip_news .trip_news_headline .headline_newslist_wrap .headline_newslist{
+section.trip_news .trip_news_headline .headline_newslist_wrap>div{
+	height: 100%;
+	padding: 0.1rem 0rem;
+	font-size: 13px;
+	position: absolute;
+	left: 0;
+	text-align: left;
+}
+section.trip_news .trip_news_headline .headline_newslist_wrap>div>div{
+	margin-top:6px;
+}
+section.trip_news .trip_news_headline .headline_newslist_wrap>div>div>b{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 50%;
+	background: orange;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section.trip_news .trip_news_headline .headline_newslist_wrap .headline_newslist{
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
@@ -314,7 +357,11 @@ section.trip_news .trip_news_headline .headline_newslist_wrap .headline_newslist
 	margin-right: 0.138888888rem;
 	border-radius: 50%;
 	display: inline-block;
-}
+}*/
+
+
+
+
 /*section.trip_news .trip_news_headline .headline_newslist_wrap .headline_newslist ul li p span{
 	
 }*/
@@ -732,9 +779,9 @@ section.like_list_items ul li a .list_info_wrap .list_info .price{
 	float: left;
 	display: inline-block;
 }
-section.like_list_items ul li a .list_info_wrap .list_info .price strong{
-	margin-right: -0.15rem;
-}
+/*section.like_list_items ul li a .list_info_wrap .list_info .price strong{
+	margin-right: 0rem;
+}*/
 section.like_list_items ul li a .list_info_wrap .list_info .al_sale{
 	display: inline-block;
 	float: right;
@@ -768,4 +815,6 @@ footer#footer img{
 	background-color: #FFFFFF;
 	background-position: center center;
 	background-repeat: no-repeat;
+	display: block;
+	opacity: 0;
 }

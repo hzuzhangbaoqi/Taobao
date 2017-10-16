@@ -223,10 +223,10 @@ body,html{
 	margin: 0 auto;
 }
 .jh_banner ul.ImgUl{
-	width: 400%;
+	width: 500%;
 }
 .jh_banner ul.ImgUl li{
-	width: 25%;
+	width: 20%;
 	float: left;
 }
 .jh_banner ul.ImgUl li a{
@@ -502,5 +502,7 @@ ul.jh_list_items li.jh_item a.link .sale_info span.already_sale{
     transform: translateX(-50%);
     transform: translateY(-50%);
     z-index: 99999;
+    display: block;
+    opacity: 0;
 }
 /*user_login结束*/
